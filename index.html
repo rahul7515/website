@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div>
+    <div class="header1">
+        <img class="logo" src="images/logo2.png" >
+        <nav>
+            <ul class="nav_links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Photos</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <section>
+    <div class="main" id="home">
+        <h1><span>Hello,</span><br> I am Rahul Lal</h1>
+        <hr><h4>EC student studing at <br>LD college of Engineering</h4><hr>
+    </div>
+</section>
+    <section class="about">
+        <div id="about">
+            <h1>My Photos</h1>
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                    <input type="radio" name="radio-btn" id="radio5">
+                    <input type="radio" name="radio-btn" id="radio6">
+                    <input type="radio" name="radio-btn" id="radio7">
+                    <input type="radio" name="radio-btn" id="radio8">
+
+                    
+                    <div class="slide first">
+                        <img src="images/2.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="images/3.jpeg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="images/4.jpeg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="images/5.jpeg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="images/6.jpeg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="images/7.jpeg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="images/8.jpeg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="images/9.jpeg" alt="">
+                    </div>
+
+                    <div class="auto-nav">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                        <div class="auto-btn5"></div>
+                        <div class="auto-btn6"></div>
+                        <div class="auto-btn7"></div>
+                        <div class="auto-btn8"></div>
+                    </div>
+                </div>
+                <div class="manual-nav">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                    <label for="radio5" class="manual-btn"></label>
+                    <label for="radio6" class="manual-btn"></label>
+                    <label for="radio7" class="manual-btn"></label>
+                    <label for="radio8" class="manual-btn"></label>
+                </div>
+            </div>
+    </section>
+    </div>
+    <div id="project">
+        <div class="title">
+            <h2>My Projects</h2>
+        </div>
+
+        <div class="box">
+            <div class="card">
+                <img src="images/helmet.jpeg">
+                <h5>Smart Helmet</h5>
+                <div class="para">
+                    <p>In this project approximately7-8 sensors are connected for the protection of the wearing this helmet it also alerts the worker if something castestropic is about to happen and sends his gps location to outside admin and admin can also alert the worker inside to come out.
+                    </p>
+                    <p style="text-align: center;">
+                    <a class="button" href="documents/helmet.pdf" target="_blank"><span></span>Read More</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/car.png">
+                <h5>IOT survellience rover</h5>
+                <div class="para">
+                    <p>This is a IOT based project where the rover is wquipped with esp32 cam which has pan tilt functionality, the rover can be moved anywhere from anywhere with internet and with the mobile app you can view live feed of the camera and also move the rover at instant.
+                    </p>
+                    <p style="text-align: center;">
+                    <a class="button" href="documents/car.pdf" target="_blank"><span></span>Read More</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/4.jpeg">
+                <h5>Smart Energy meter</h5>
+                <div class="para">
+                    <p>In this project I have used ESP32 as the IOT controller along with current sensor to collect the power from the nodes and it to the mobile application along with the user's electricity bill approximation. And with wifi manager and OTA update support. 
+                    </p>
+                    <p style="text-align: center;">
+                    <a class="button" href="documents/energy.pdf" target="_blank"><span></span>Read More</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="contact">
+        <p>Rahul Lal</p>
+        <p>You can contact me by clicking on below icons</p>
+        <div class="social">
+            <a href="https://github.com/rahul7515/OTA" target="_blank"><img src="images/github.svg"></a>
+            <a href="https://www.instagram.com/mr_strange_2.1/" target="_blank"><img src="images/instagram.svg"></a>
+            <a href="https://www.youtube.com/channel/UChDEHrmJUDvQ6MPnhXvMo-A" target="_blank"><img src="images/youtube.svg"></a>
+        </div>
+        <p class="end">Copyright by Rahul Lal</p>
+    </footer>
+</body>
+</html>
